@@ -25,8 +25,8 @@
                 extend: {
                     colors: {
                         'primary-color': '#F85559',
-                        'text-heading': '#121212',
-                        'text-content': 'rgba(18, 18, 18, 0.60)',
+                        'text-head': '#121212',
+                        'text-content': '#131212',
                         'line-dark': 'rgba(18, 18, 18, 0.80)'
                     }
                 }
@@ -124,7 +124,7 @@
                         <div class="hero-overlay bg-opacity-50"></div>
                         <div class="hero-content text-center text-white text-neutral-content">
                             <div class="">
-                                <h1 class="mb-5 text-4xl lg:text-7xl  font-extrabold ">Exotic tastes at your<br>
+                                <h1 class="mb-5 text-4xl lg:text-7xl  font-black ">Exotic tastes at your<br>
                                     doorstep</h1>
                                 <p class="mb-5 text-xl font-medium">We supply highly quality organic products</p>
                                 <button
@@ -239,7 +239,54 @@
         </section>
         <!-- end of banner area -->
     </header>
-    <main>
+    <main class="container mx-auto">
+
+        <!-- deal of the day area start -->
+        <section class="my-24">
+
+            <div
+                class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+                <div
+                    class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+                    <h2 class="text-3xl lg:text-5xl font-black text-head">Deal of the day</h2>
+                    <p class="text-base font-medium text-gray-400 leading-6 mt-5">Contrary to popular belief, is not
+                        simply
+                        random text. It has roots in a piece of classical Latin
+                        literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div class="flex items-center justify-center p-6 mt-8 lg:mt-0   lg:h-96 xl:h-112 2xl:h-128">
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max ">
+                        <div class="flex flex-col">
+                            <span class="countdown  text-5xl font-black text-head">
+                                <span style="--value:29;"></span>
+
+                            </span>
+                            <span class="text-base font-medium leading-6 mt-2">Days</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown  text-5xl font-black text-head">
+                                <span style="--value:15;"></span>
+                            </span>
+                            <span class="text-base font-medium leading-6 mt-2">Hours</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown  text-5xl font-black text-head">
+                                <span style="--value:25;"></span>
+                            </span>
+                            <span class="text-base font-medium leading-6 mt-2">Minuets</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown  text-5xl font-black text-head">
+                                <span style="--value:8;"></span>
+                            </span>
+                            <span class="text-base font-medium leading-6 mt-2">Seconds</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- end of deal of the day -->
 
     </main>
     <footer>
