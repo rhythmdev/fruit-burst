@@ -34,6 +34,7 @@
         }
     </script>
 
+    <!-- custom styles -->
     <style>
         .font-lato {
             font-family: 'Lato', sans-serif;
@@ -87,7 +88,7 @@
                     </div>
 
                 </div>
-                <div class="drawer-side">
+                <div class="drawer-side z-10">
                     <label for="my-drawer-3" class="drawer-overlay"></label>
                     <ul class="menu p-4 w-[16.75rem] min-h-full bg-base-200 text-base justify-center items-center">
                         <!-- Sidebar content here -->
@@ -113,6 +114,130 @@
         </nav>
 
         <!-- end of navbar area -->
+
+        <!-- banner area start -->
+        <section class="mt-10 px-5">
+
+            <div class="carousel w-full rounded-xl ">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <div class="hero  lg:min-h-screen " style="background-image: url('/images/banner1.png');">
+                        <div class="hero-overlay bg-opacity-50"></div>
+                        <div class="hero-content text-center text-white text-neutral-content">
+                            <div class="">
+                                <h1 class="mb-5 text-4xl lg:text-7xl  font-extrabold ">Exotic tastes at your<br>
+                                    doorstep</h1>
+                                <p class="mb-5 text-xl font-medium">We supply highly quality organic products</p>
+                                <button
+                                    class="bg-primary-color px-5 py-3 rounded-lg border-0 text-white text-xl font-bold hover:text-slate-800">Get
+                                    Started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4"
+                            class="btn btn-circle bg-line-dark text-white border-0 text-xl hover:text-line-dark">❮</a>
+                        <a href="#slide2"
+                            class="btn btn-circle bg-line-dark text-white border-0 text-xl hover:text-line-dark">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="hero min-h-screen" style="background-image: url('/images/banner2.png');">
+                        <div class="hero-overlay bg-opacity-50"></div>
+                        <div class="hero-content text-center text-white text-neutral-content">
+                            <div class="">
+                                <h1 class="mb-5 text-4xl lg:text-7xl  font-extrabold ">Exotic tastes at your<br>
+                                    doorstep</h1>
+                                <p class="mb-5 text-xl font-medium">We supply highly quality organic products</p>
+                                <button
+                                    class="bg-primary-color px-5 py-3 rounded-lg border-0 text-white text-xl font-bold hover:text-slate-800">Get
+                                    Started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1"
+                            class="btn btn-circle bg-line-dark text-white border-0 text-xl hover:text-line-dark">❮</a>
+                        <a href="#slide3"
+                            class="btn btn-circle bg-line-dark text-white border-0 text-xl hover:text-line-dark">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <div class="hero min-h-screen" style="background-image: url('/images/banner3.png');">
+                        <div class="hero-overlay bg-opacity-50"></div>
+                        <div class="hero-content text-center text-white text-neutral-content">
+                            <div class="">
+                                <h1 class="mb-5 text-4xl lg:text-7xl  font-extrabold ">Exotic tastes at your<br>
+                                    doorstep</h1>
+                                <p class="mb-5 text-xl font-medium">We supply highly quality organic products</p>
+                                <button
+                                    class="bg-primary-color px-5 py-3 rounded-lg border-0 text-white text-xl font-bold hover:text-slate-800">Get
+                                    Started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2"
+                            class="btn btn-circle bg-line-dark text-white border-0 text-xl hover:text-line-dark">❮</a>
+                        <a href="#slide4"
+                            class="btn btn-circle bg-line-dark text-white border-0 text-xl hover:text-line-dark">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <div class="hero min-h-screen" style="background-image: url('/images/banner4.png');">
+                        <div class="hero-overlay bg-opacity-50"></div>
+                        <div class="hero-content text-center text-white text-neutral-content">
+                            <div class="">
+                                <h1 class="mb-5 text-4xl lg:text-7xl  font-extrabold ">Exotic tastes at your<br>
+                                    doorstep</h1>
+                                <p class="mb-5 text-xl font-medium">We supply highly quality organic products</p>
+                                <button
+                                    class="bg-primary-color px-5 py-3 rounded-lg border-0 text-white text-xl font-bold hover:text-slate-800">Get
+                                    Started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3"
+                            class="btn btn-circle bg-line-dark text-white border-0 text-xl hover:text-line-dark">❮</a>
+                        <a href="#slide1"
+                            class="btn btn-circle bg-line-dark text-white border-0 text-xl hover:text-line-dark">❯</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- fruits card area start -->
+            <section class="relative  ">
+                <div class="container absolute -top-32 hidden lg:block">
+                    <div
+                        class="grid grid-cols-5 gap-8 bg-white shadow-xl w-4/5 items-center justify-center mx-auto p-10 rounded-lg">
+                        <div class="flex flex-col items-center gap-1">
+                            <img src="./images/fruit1.png" alt="Blackberry">
+                            <span class="text-xl font-medium text-line-break">Blackberry</span>
+                        </div>
+                        <div class="flex flex-col items-center gap-1">
+                            <img src="./images/fruit2.png" alt="Orange">
+                            <span class="text-xl font-medium text-line-break">Orange</span>
+                        </div>
+                        <div class="flex flex-col items-center gap-1">
+                            <img src="./images/fruit3.png" alt="Mango">
+                            <span class="text-xl font-medium text-line-break">Mango</span>
+                        </div>
+                        <div class="flex flex-col items-center gap-1">
+                            <img src="./images/fruit4.png" alt="Strawberry">
+                            <span class="text-xl font-medium text-line-break">Strawberry</span>
+                        </div>
+                        <div class="flex flex-col items-center gap-1">
+                            <img src="./images/fruit5.png" alt="Pomegranate">
+                            <span class="text-xl font-medium text-line-break">Pomegranate</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- end of fruits  card area -->
+
+        </section>
+        <!-- end of banner area -->
     </header>
     <main>
 
