@@ -26,24 +26,100 @@
                     colors: {
                         'primary-color': '#F85559',
                         'text-heading': '#121212',
-                         'text-content': 'rgba(18, 18, 18, 0.60)',
-                         'line-dark': 'rgba(18, 18, 18, 0.80)' 
+                        'text-content': 'rgba(18, 18, 18, 0.60)',
+                        'line-dark': 'rgba(18, 18, 18, 0.80)'
                     }
                 }
             }
         }
     </script>
-  
-  <style>
-    .font-lato{
-        font-family: 'Lato', sans-serif;
-    }
-  </style>
+
+    <style>
+        .font-lato {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
 
 </head>
 
 <body>
+    <header class="container mx-auto">
+        <!-- navbar area start -->
 
+        <nav class="mt-4 lg:mt-10">
+            <div class="drawer">
+                <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+                <div class="drawer-content flex flex-col">
+                    <!-- Navbar -->
+                    <div
+                        class="w-full navbar flex-row-reverse lg:flex-row justify-between lg:rounded-full px-4 lg:px-8 lg:py-3 lg:bg-primary-color">
+                        <div class="flex-none lg:hidden">
+                            <label for="my-drawer-3" class="btn btn-square btn-ghost">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    class="inline-block w-6 h-6 stroke-current">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h16M4 18h16"></path>
+                                </svg>
+                            </label>
+                        </div>
+
+                        <div class="flex-none hidden lg:block">
+                            <ul class="menu menu-horizontal text-white text-base font-medium">
+                                <!-- Navbar menu content here -->
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#shop">Shop</a></li>
+                                <li><a href="#all-fruits">All Fruits</a></li>
+                            </ul>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img class="w-12" src="images/logo.png" alt="logo">
+                            <span class="lg:text-white text-2xl lg:text-4xl font-bold">Fruit Burst</span>
+                        </div>
+                        <from class="hidden lg:flex  bg-white text-content text-base font-normal px-8 py-2 rounded-3xl">
+                            <input type="search" name="search" id="search" placeholder="Search here"
+                                class="focus:outline-none h-full ">
+                            <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+
+                        </from>
+                    </div>
+
+                </div>
+                <div class="drawer-side">
+                    <label for="my-drawer-3" class="drawer-overlay"></label>
+                    <ul class="menu p-4 w-[16.75rem] min-h-full bg-base-200 text-base justify-center items-center">
+                        <!-- Sidebar content here -->
+                        <li class="mb-4">
+                            <from class="bg-white text-content text-base font-normal px-4 py-2 rounded-3xl">
+                                <input type="search" name="search" id="search" placeholder="Search here"
+                                    class="focus:outline-none h-full hover:none">
+                                <button type="submit">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+
+                            </from>
+                        </li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#all-fruits">All Fruits</a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- end of navbar area -->
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
